@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIT Student Login</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login-container {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+    }
+    .login-container img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+    .login-container h2 {
+      margin-bottom: 20px;
+      color: #003366;
+    }
+    .login-container input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .login-container button {
+      width: 100%;
+      padding: 10px;
+      background: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .login-container button:hover {
+      background: #0055aa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-container">
+    <img src="cit_logo.png" alt="CIT Logo">
+    <h2>CIT Student Login</h2>
+    <form>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+</body>
+</html>
